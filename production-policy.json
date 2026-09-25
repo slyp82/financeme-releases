@@ -1,11 +1,11 @@
 ﻿{
     "latest_version":  "1.0.0",
-    "latest_build":  8111,
-    "minimum_required_build":  8111,
+    "latest_build":  8113,
+    "minimum_required_build":  8113,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
     "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-latest/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "c5a293ab7e654de1c522c4d9844c868a3bb6b1794ccfa57d54e050831343c5ff",
+    "apk_sha256":  "3d0cde8803423ed49d5ac74f0860a576764cb926a2a9ab2603cb9888adc6e552",
     "release_notes":  "financeMe! Production V1 - verified update, migration receiver, backup/restore reliability.",
     "telemetry_endpoint":  ""
 }
