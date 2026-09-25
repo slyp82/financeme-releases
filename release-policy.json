@@ -5,7 +5,7 @@
     "channel":  "UAT",
     "package_id":  "id.financeme.prototype",
     "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/uat-latest/financeMe-UAT-latest-arm64.apk",
-    "apk_sha256":  "7e6a3d99013f1613d469751601f5254706b5362eafaaa213cab17977c7f45731",
+    "apk_sha256":  "6fd1c0ddfc20a3103fc7d9197fb33c0104a58462b232a76654ce95a47915dbf4",
     "release_notes":  "Pembaruan wajib untuk memindahkan financeMe! UAT ke Production. Data lokal dicadangkan dan diverifikasi sebelum migrasi.",
     "telemetry_endpoint":  ""
 }
