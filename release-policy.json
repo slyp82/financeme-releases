@@ -1,0 +1,11 @@
+﻿{
+    "latest_version":  "1.0.0-bridge",
+    "latest_build":  7007,
+    "minimum_required_build":  7007,
+    "channel":  "UAT",
+    "package_id":  "id.financeme.prototype",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/uat-latest/financeMe-UAT-latest-arm64.apk",
+    "apk_sha256":  "7e6a3d99013f1613d469751601f5254706b5362eafaaa213cab17977c7f45731",
+    "release_notes":  "Pembaruan wajib untuk memindahkan financeMe! UAT ke Production. Data lokal dicadangkan dan diverifikasi sebelum migrasi.",
+    "telemetry_endpoint":  ""
+}
