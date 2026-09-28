@@ -1,13 +1,13 @@
 ﻿{
-    "latest_version":  "1.0.2",
-    "latest_build":  8308,
-    "minimum_required_build":  8308,
+    "latest_version":  "1.0.3",
+    "latest_build":  8411,
+    "minimum_required_build":  8411,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.2-build8308/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "ea1a4e2bd8a3d0cdc1ecb770e23e831df379391cf8a7fee05b1665b50a7192de",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.3-build8411/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "18364ebd400de9de72ca317de2e7058c25f480b3909886b7da086ecbee99061b",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.2: Pengingat rutin berjangka dapat memakai batas akhir/tenor, menampilkan sisa pembayaran dan sisa kewajiban, serta menyediakan pelunasan langsung yang mencatat transaksi aktual lalu menutup reminder; recurring berjangka berhenti otomatis setelah periode terakhir; deteksi issuer rekening koran memprioritaskan bank penerbit agar nama bank lawan transaksi tidak salah klasifikasi; summary Inbox tidak lagi menampilkan status ambigu ketika unresolved sudah 0; XLSX Office-encrypted dikenali sebagai format terenkripsi dan diarahkan fail-closed ke PDF e-Statement sampai decoder terenkripsi tersedia.",
+    "release_notes":  "v1.0.3: Perhitungan relasi SQLite diperluas untuk pengingat rutin, hutang, piutang, dan aset. Pengingat lama menghitung pembayaran aktual dari relasi native terlebih dahulu lalu pencocokan ledger ketat berdasarkan profil, rekening, jenis, nominal, kategori, dan keterangan; kandidat ambigu tidak dihitung. Detail pengingat menampilkan jumlah pembayaran dan total yang sudah dibayar. Hutang menampilkan jumlah pembayaran, pokok dan biaya terbayar, saldo pokok saat ini, perkiraan sisa cicilan bila nominal cicilan tersedia, dan pokok pelunasan saat ini tanpa menebak bunga atau biaya masa depan. Piutang menampilkan jumlah penerimaan, nilai yang sudah diterima, dan sisa piutang dari lifecycle aset. Aset menampilkan jumlah pergerakan, tambah atau beli, kurang atau jual, kas keluar, dan kas masuk. Halaman Hitung Relasi SQLite tersedia dari Dana \u0026 Aset.",
     "telemetry_endpoint":  null
 }
