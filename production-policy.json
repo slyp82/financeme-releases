@@ -1,11 +1,13 @@
 ﻿{
-    "latest_version":  "1.0.0",
-    "latest_build":  8113,
-    "minimum_required_build":  8113,
+    "latest_version":  "1.0.1",
+    "latest_build":  8207,
+    "minimum_required_build":  8207,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-latest/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "3d0cde8803423ed49d5ac74f0860a576764cb926a2a9ab2603cb9888adc6e552",
-    "release_notes":  "financeMe! Production V1 - verified update, migration receiver, backup/restore reliability.",
-    "telemetry_endpoint":  ""
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.1-build8207/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "9db50a9050e1497627d0b37dfe0ff137c5cc024744592201b8a00ad7237ef121",
+    "release_title":  "Patch Stabilitas \u0026 Keamanan",
+    "release_kind":  "STABILITY_SECURITY_PATCH",
+    "release_notes":  "v1.0.1: Salin transaksi tidak lagi meminta legacy first-sync; review rekening koran tidak menawarkan bulk confirm 0-result dan menampilkan konteks pasangan; portfolio Crypto/Bitget mendukung banyak simbol dengan valuasi per posisi dan total portfolio; nilai perolehan crypto yang belum diisi tidak ditampilkan sebagai Rp0; boot menahan akses bila patch baru tersedia; snapshot SQLite database/profile diverifikasi sebelum APK diunduh; package, build, SHA-256 dan signer tetap fail-closed; cleanup aplikasi prototype lama tetap meminta konfirmasi Android.",
+    "telemetry_endpoint":  null
 }
