@@ -1,13 +1,13 @@
 ﻿{
-    "latest_version":  "1.0.3",
-    "latest_build":  8411,
-    "minimum_required_build":  8411,
+    "latest_version":  "1.0.4",
+    "latest_build":  8412,
+    "minimum_required_build":  8412,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.3-build8411/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "18364ebd400de9de72ca317de2e7058c25f480b3909886b7da086ecbee99061b",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8412/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "58ef16e54365c55c8286c20d4e7f8e649f65b545c4f62dc2d10df1417c5707e6",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.3: Perhitungan relasi SQLite diperluas untuk pengingat rutin, hutang, piutang, dan aset. Pengingat lama menghitung pembayaran aktual dari relasi native terlebih dahulu lalu pencocokan ledger ketat berdasarkan profil, rekening, jenis, nominal, kategori, dan keterangan; kandidat ambigu tidak dihitung. Detail pengingat menampilkan jumlah pembayaran dan total yang sudah dibayar. Hutang menampilkan jumlah pembayaran, pokok dan biaya terbayar, saldo pokok saat ini, perkiraan sisa cicilan bila nominal cicilan tersedia, dan pokok pelunasan saat ini tanpa menebak bunga atau biaya masa depan. Piutang menampilkan jumlah penerimaan, nilai yang sudah diterima, dan sisa piutang dari lifecycle aset. Aset menampilkan jumlah pergerakan, tambah atau beli, kurang atau jual, kas keluar, dan kas masuk. Halaman Hitung Relasi SQLite tersedia dari Dana \u0026 Aset.",
+    "release_notes":  "v1.0.4: Perbaikan Rutin \u0026 Cicilan. Pembayaran aktual dari Pengingat Rutin kini ditautkan ke relasi SQLite native dan transaksi lama source RECURRING dapat dipulihkan secara fail-closed. Pembayaran sebagian dapat dilakukan lebih dari sekali pada periode yang sama dan jatuh tempo tidak maju sampai periode itu lunas. Kewajiban berjangka menampilkan sisa periode/cicilan dan sisa total; rutin tanpa tenor hanya menampilkan sisa periode berjalan agar tidak dihitung selamanya. Menu Transaksi menyediakan pintu Bayar rutin \u0026 cicilan dengan nominal bebas sampai sisa periode atau Lunasi semua untuk kewajiban berjangka. Metadata rutin lama yang terbukti salah dapat dinormalisasi dari histori ledger yang konsisten tanpa menulis ulang transaksi historis. Arisan diperlakukan sebagai biaya rutin berjangka; penerimaan arisan tidak diprediksi dan baru dicatat saat benar-benar masuk.",
     "telemetry_endpoint":  null
 }
