@@ -1,13 +1,13 @@
 ﻿{
-    "latest_version":  "1.0.1",
-    "latest_build":  8207,
-    "minimum_required_build":  8207,
+    "latest_version":  "1.0.2",
+    "latest_build":  8308,
+    "minimum_required_build":  8308,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.1-build8207/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "9db50a9050e1497627d0b37dfe0ff137c5cc024744592201b8a00ad7237ef121",
-    "release_title":  "Patch Stabilitas \u0026 Keamanan",
-    "release_kind":  "STABILITY_SECURITY_PATCH",
-    "release_notes":  "v1.0.1: Salin transaksi tidak lagi meminta legacy first-sync; review rekening koran tidak menawarkan bulk confirm 0-result dan menampilkan konteks pasangan; portfolio Crypto/Bitget mendukung banyak simbol dengan valuasi per posisi dan total portfolio; nilai perolehan crypto yang belum diisi tidak ditampilkan sebagai Rp0; boot menahan akses bila patch baru tersedia; snapshot SQLite database/profile diverifikasi sebelum APK diunduh; package, build, SHA-256 dan signer tetap fail-closed; cleanup aplikasi prototype lama tetap meminta konfirmasi Android.",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.2-build8308/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "ea1a4e2bd8a3d0cdc1ecb770e23e831df379391cf8a7fee05b1665b50a7192de",
+    "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
+    "release_kind":  "FEATURE_STABILITY_PATCH",
+    "release_notes":  "v1.0.2: Pengingat rutin berjangka dapat memakai batas akhir/tenor, menampilkan sisa pembayaran dan sisa kewajiban, serta menyediakan pelunasan langsung yang mencatat transaksi aktual lalu menutup reminder; recurring berjangka berhenti otomatis setelah periode terakhir; deteksi issuer rekening koran memprioritaskan bank penerbit agar nama bank lawan transaksi tidak salah klasifikasi; summary Inbox tidak lagi menampilkan status ambigu ketika unresolved sudah 0; XLSX Office-encrypted dikenali sebagai format terenkripsi dan diarahkan fail-closed ke PDF e-Statement sampai decoder terenkripsi tersedia.",
     "telemetry_endpoint":  null
 }
