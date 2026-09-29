@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8427,
-    "minimum_required_build":  8427,
+    "latest_build":  8429,
+    "minimum_required_build":  8429,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8427/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "372f668d913478fa296fddc6ff356e8d79d12d653fab5b391637f3b367b7b77f",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8429/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "9347527a76290a789f6cd881345831a25e6ae9dff03c6a86b750c0408671bc7c",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4: Transaksi Rutin kini terhubung native ke Ledger melalui ID rutin -\u003e occurrence -\u003e ID transaksi. Saat aplikasi dibuka, relasi lama yang aman direkonsiliasi otomatis; edit transaksi memindahkan link ke baris Ledger yang terlihat, sehingga tidak lagi menghitung row tersembunyi. Tab Transaksi kini punya pintu Transfer rekening, Aset, Hutang \u0026 Piutang, dan Biaya rutin. Ketikan seperti bayar SPP, cicil arisan, iuran, atau biaya rutin akan mencari Master Transaksi Rutin lebih dulu; setelah pembayaran aktual berhasil, pengguna langsung dibawa ke detail rutin untuk melihat periode terbayar, sisa bulan, dan sisa kewajiban. Pencarian A-Z Master Transaksi Rutin dan koreksi SPP 10 bulan tetap disertakan.",
+    "release_notes":  "v1.0.4: Penyesuaian Saldo kini tersedia langsung dari Dana \u0026 Aset \u003e Saldo Likuid. Tap rekening, masukkan saldo aktual, dan financeMe! mencatat hanya selisihnya sebagai ADJUSTMENT_IN/ADJUSTMENT_OUT tanpa mengubah histori transaksi dan tanpa mengotori pemasukan/pengeluaran bulanan. Nilai saldo likuid mendukung presisi sen. Perbaikan Transaksi Rutin, pencarian Master Rutin, restore relasi native, dan koreksi SPP 10 bulan tetap disertakan.",
     "telemetry_endpoint":  null
 }
