@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8414,
-    "minimum_required_build":  8414,
+    "latest_build":  8420,
+    "minimum_required_build":  8420,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8414/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "9cafeff0a8195f7151c4e2e4afdacbf13bd7c6e045db64723ed8fd31f127ae5f",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8420/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "075bebfbb6bb3688848562861525f0fee16e80b6963babd2015d48854815e0bc",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4: Perbaikan Rutin \u0026 Cicilan. Master Transaksi Rutin kini memiliki pencarian dan urutan A-Z. Relasi Ledger ke transaksi rutin memprioritaskan occurrence native; fallback legacy dibatasi profile, rekening, nominal, tipe/kategori, keterangan, dan periode siklus. SPP/tahun ajaran berlabel seperti 2026/2027 hanya menghitung transaksi pada siklusnya sendiri, sehingga histori periode lama tidak ikut mengurangi kewajiban. Kasus SPP 10 bulan Agustus-Mei dapat direpresentasikan sebagai periode berjangka; pembayaran aktual 3 dari 10 menyisakan 7 periode dan jadwal berikutnya maju ke periode yang benar. Pembayaran sebagian dapat dilakukan lebih dari sekali pada periode yang sama dan jatuh tempo tidak maju sampai periode itu lunas. Arisan tetap diperlakukan sebagai biaya rutin berjangka; penerimaan baru dicatat saat benar-benar masuk.",
+    "release_notes":  "v1.0.4: Transaksi Rutin kini terhubung native ke Ledger melalui ID rutin -\u003e occurrence -\u003e ID transaksi. Saat aplikasi dibuka, relasi lama yang aman direkonsiliasi otomatis; edit transaksi memindahkan link ke baris Ledger yang terlihat, sehingga tidak lagi menghitung row tersembunyi. Tab Transaksi kini punya pintu Transfer rekening, Aset, Hutang \u0026 Piutang, dan Biaya rutin. Ketikan seperti bayar SPP, cicil arisan, iuran, atau biaya rutin akan mencari Master Transaksi Rutin lebih dulu; setelah pembayaran aktual berhasil, pengguna langsung dibawa ke detail rutin untuk melihat periode terbayar, sisa bulan, dan sisa kewajiban. Pencarian A-Z Master Transaksi Rutin dan koreksi SPP 10 bulan tetap disertakan.",
     "telemetry_endpoint":  null
 }
