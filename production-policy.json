@@ -8,6 +8,6 @@
     "apk_sha256":  "e81bfe8f1363c7e49d0767afba4783f938e221e187fc2d2bb28059911e8c9cff",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4: Penyesuaian Saldo kini tersedia langsung dari Dana \u0026 Aset \u003e Saldo Likuid. Tap rekening, masukkan saldo aktual, dan financeMe! mencatat hanya selisihnya sebagai ADJUSTMENT_IN/ADJUSTMENT_OUT tanpa mengubah histori transaksi dan tanpa mengotori pemasukan/pengeluaran bulanan. Nilai saldo likuid mendukung presisi sen. Perbaikan Transaksi Rutin, pencarian Master Rutin, restore relasi native, dan koreksi SPP 10 bulan tetap disertakan.",
+    "release_notes":  "v1.0.4 Build 8434: Edit Pengingat Rutin kini dapat memilih jenis transaksi/kategori. Edit transaksi Ledger kini dapat mengubah Pengeluaran/Pemasukan dan kategori secara aman. Detail pengingat menampilkan Histori Ledger Terhubung. Kebutuhan Hidup memakai histori dinamis dan interval pola, bukan pembagi tetap 6 bulan. Pintasan Transaksi dirapikan menjadi 2 baris. Perbaikan sisa pembayaran rutin, updater, penyesuaian saldo, restore relasi native, dan koreksi SPP tetap disertakan.",
     "telemetry_endpoint":  null
 }
