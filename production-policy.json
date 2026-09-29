@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8412,
-    "minimum_required_build":  8412,
+    "latest_build":  8414,
+    "minimum_required_build":  8414,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8412/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "58ef16e54365c55c8286c20d4e7f8e649f65b545c4f62dc2d10df1417c5707e6",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8414/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "9cafeff0a8195f7151c4e2e4afdacbf13bd7c6e045db64723ed8fd31f127ae5f",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4: Perbaikan Rutin \u0026 Cicilan. Pembayaran aktual dari Pengingat Rutin kini ditautkan ke relasi SQLite native dan transaksi lama source RECURRING dapat dipulihkan secara fail-closed. Pembayaran sebagian dapat dilakukan lebih dari sekali pada periode yang sama dan jatuh tempo tidak maju sampai periode itu lunas. Kewajiban berjangka menampilkan sisa periode/cicilan dan sisa total; rutin tanpa tenor hanya menampilkan sisa periode berjalan agar tidak dihitung selamanya. Menu Transaksi menyediakan pintu Bayar rutin \u0026 cicilan dengan nominal bebas sampai sisa periode atau Lunasi semua untuk kewajiban berjangka. Metadata rutin lama yang terbukti salah dapat dinormalisasi dari histori ledger yang konsisten tanpa menulis ulang transaksi historis. Arisan diperlakukan sebagai biaya rutin berjangka; penerimaan arisan tidak diprediksi dan baru dicatat saat benar-benar masuk.",
+    "release_notes":  "v1.0.4: Perbaikan Rutin \u0026 Cicilan. Master Transaksi Rutin kini memiliki pencarian dan urutan A-Z. Relasi Ledger ke transaksi rutin memprioritaskan occurrence native; fallback legacy dibatasi profile, rekening, nominal, tipe/kategori, keterangan, dan periode siklus. SPP/tahun ajaran berlabel seperti 2026/2027 hanya menghitung transaksi pada siklusnya sendiri, sehingga histori periode lama tidak ikut mengurangi kewajiban. Kasus SPP 10 bulan Agustus-Mei dapat direpresentasikan sebagai periode berjangka; pembayaran aktual 3 dari 10 menyisakan 7 periode dan jadwal berikutnya maju ke periode yang benar. Pembayaran sebagian dapat dilakukan lebih dari sekali pada periode yang sama dan jatuh tempo tidak maju sampai periode itu lunas. Arisan tetap diperlakukan sebagai biaya rutin berjangka; penerimaan baru dicatat saat benar-benar masuk.",
     "telemetry_endpoint":  null
 }
