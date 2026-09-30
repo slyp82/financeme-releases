@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8435,
-    "minimum_required_build":  8435,
+    "latest_build":  8436,
+    "minimum_required_build":  8436,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8435/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "dc1bd49ec70eb1a28c174fd4a19b82528a9e49a529cd2bd859dd4a97e73e9320",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8436/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "f1e3755eae7db1136df295d78f21a6fdf9f8aec0f78e9c6aa3422c29b9bfd753",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4 Build 8435: Detail Pengingat Rutin kini memiliki Kelola link Ledger. User dapat mencari dan mencentang histori Ledger untuk menghubungkannya ke rutin, termasuk saat nominal aktual berbeda dari nominal rencana. Link dapat dibuat, dibaca, diubah nominal alokasinya, di-soft delete tanpa menghapus transaksi Ledger, lalu diaktifkan kembali. Transaksi yang sudah terhubung ke rutin lain tetap dilindungi. Perbaikan Build 8434 tetap disertakan.",
+    "release_notes":  "v1.0.4: Penyesuaian Saldo kini tersedia langsung dari Dana \u0026 Aset \u003e Saldo Likuid. Tap rekening, masukkan saldo aktual, dan financeMe! mencatat hanya selisihnya sebagai ADJUSTMENT_IN/ADJUSTMENT_OUT tanpa mengubah histori transaksi dan tanpa mengotori pemasukan/pengeluaran bulanan. Nilai saldo likuid mendukung presisi sen. Perbaikan Transaksi Rutin, pencarian Master Rutin, restore relasi native, dan koreksi SPP 10 bulan tetap disertakan.",
     "telemetry_endpoint":  null
 }
