@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8438,
-    "minimum_required_build":  8438,
+    "latest_build":  8439,
+    "minimum_required_build":  8439,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8438/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "0c938bf371fdeac4a67201ce531ce8c2bf372f3b90a9be1159ece4572e0260e6",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8439/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "0ebd78ae662921f04a4c62c60c76fb8a916f0dc2edf5335ebce2fdff698a2bb6",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4: Penyesuaian Saldo kini tersedia langsung dari Dana \u0026 Aset \u003e Saldo Likuid. Tap rekening, masukkan saldo aktual, dan financeMe! mencatat hanya selisihnya sebagai ADJUSTMENT_IN/ADJUSTMENT_OUT tanpa mengubah histori transaksi dan tanpa mengotori pemasukan/pengeluaran bulanan. Nilai saldo likuid mendukung presisi sen. Perbaikan Transaksi Rutin, pencarian Master Rutin, restore relasi native, dan koreksi SPP 10 bulan tetap disertakan.",
+    "release_notes":  "v1.0.4: Detail Pengingat Rutin kini menampilkan ringkasan terlebih dahulu, lalu Histori Ledger di bawahnya dengan 5 transaksi terbaru per halaman agar tidak perlu scroll panjang. Urutan histori terbaru ke terlama, sedangkan jumlah pembayaran dan total nominal tetap menghitung seluruh transaksi terhubung. Penyesuaian Saldo, perbaikan Transaksi Rutin, pencarian Master Rutin, restore relasi native, dan koreksi SPP 10 bulan tetap disertakan.",
     "telemetry_endpoint":  null
 }
