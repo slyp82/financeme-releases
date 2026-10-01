@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8439,
-    "minimum_required_build":  8439,
+    "latest_build":  8444,
+    "minimum_required_build":  8444,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8439/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "0ebd78ae662921f04a4c62c60c76fb8a916f0dc2edf5335ebce2fdff698a2bb6",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8444/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "b657d0a81ac646ac3575df2d71eb87f798118b1d2f42c14f765e27c4e39d4910",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4: Detail Pengingat Rutin kini menampilkan ringkasan terlebih dahulu, lalu Histori Ledger di bawahnya dengan 5 transaksi terbaru per halaman agar tidak perlu scroll panjang. Urutan histori terbaru ke terlama, sedangkan jumlah pembayaran dan total nominal tetap menghitung seluruh transaksi terhubung. Penyesuaian Saldo, perbaikan Transaksi Rutin, pencarian Master Rutin, restore relasi native, dan koreksi SPP 10 bulan tetap disertakan.",
+    "release_notes":  "v1.0.4: Insight Keuangan lokal otomatis ditambahkan ke Budget Bulanan dan shortcut langsung tersedia di Beranda. Insight merangkum kondisi Dana Bebas hari ini, gap kebutuhan 30 hari dibanding kas aktual, serta surplus/defisit kemampuan bulanan tanpa mengubah saldo atau transaksi dan tanpa AI cloud. Detail Pengingat Rutin 5 histori per halaman, Penyesuaian Saldo, perbaikan Transaksi Rutin, restore relasi native, dan koreksi SPP tetap disertakan.",
     "telemetry_endpoint":  null
 }
