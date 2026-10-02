@@ -1,13 +1,13 @@
-﻿{
+{
     "latest_version":  "1.0.4",
-    "latest_build":  8451,
-    "minimum_required_build":  8451,
+    "latest_build":  8503,
+    "minimum_required_build":  8503,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8451/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "944d104a5253ee3544b0366df8776623465a93433fe1c7dfe50d9ccad6670a4b",
-    "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8503/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "91ac40e5636eff686e2f8fe9cdc7c70e7a685b587627583a65ae26d74e6070a2",
+    "release_title":  "Pembaruan Fondasi Global & Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4: Insight Keuangan lokal otomatis ditambahkan ke Budget Bulanan dan shortcut langsung tersedia di Beranda. Insight merangkum kondisi Dana Bebas hari ini, gap kebutuhan 30 hari dibanding kas aktual, serta surplus/defisit kemampuan bulanan tanpa mengubah saldo atau transaksi dan tanpa AI cloud. Detail Pengingat Rutin 5 histori per halaman, Penyesuaian Saldo, perbaikan Transaksi Rutin, restore relasi native, dan koreksi SPP tetap disertakan.",
+    "release_notes":  "v1.0.4 build 8503: Fondasi Profile Money Context dan locale/currency, pemisahan Base Currency dari Display Currency, perlindungan data lama IDR/LEGACY_IDR tanpa mengubah nominal tersimpan, penguatan backup/restore SQLite end-to-end, serta stabilitas refresh FX dan crypto tanpa mengubah transaksi, saldo, acquisition value, atau cost basis. Frontend production tetap Indonesia-first.",
     "telemetry_endpoint":  null
 }
