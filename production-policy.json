@@ -1,13 +1,13 @@
-{
+﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8503,
-    "minimum_required_build":  8503,
+    "latest_build":  8504,
+    "minimum_required_build":  8504,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8503/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "91ac40e5636eff686e2f8fe9cdc7c70e7a685b587627583a65ae26d74e6070a2",
-    "release_title":  "Pembaruan Fondasi Global & Stabilitas",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8504/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "c5665fbd5f21abdafbdd6435dbe3c5f65cecf3edbe262988404af92848e245d8",
+    "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4 build 8503: Fondasi Profile Money Context dan locale/currency, pemisahan Base Currency dari Display Currency, perlindungan data lama IDR/LEGACY_IDR tanpa mengubah nominal tersimpan, penguatan backup/restore SQLite end-to-end, serta stabilitas refresh FX dan crypto tanpa mengubah transaksi, saldo, acquisition value, atau cost basis. Frontend production tetap Indonesia-first.",
+    "release_notes":  "v1.0.4 build 8504: pencairan deposito memakai lot aktif yang sudah tersimpan. Lot dapat dipilih, nilai pokok otomatis mengisi nilai aset namun tetap bisa diedit, transaksi ditautkan ke lot yang tepat, dan hanya lot terpilih yang ditutup tanpa menutup aset deposito induk. Patch produksi v1.0.4 sebelumnya tetap disertakan.",
     "telemetry_endpoint":  null
 }
