@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8504,
-    "minimum_required_build":  8504,
+    "latest_build":  8505,
+    "minimum_required_build":  8505,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8504/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "c5665fbd5f21abdafbdd6435dbe3c5f65cecf3edbe262988404af92848e245d8",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8505/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "bb1dba27ae76b5b41e65c74616182119231de6ac922d453a8f61da9b307e6062",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4 build 8504: pencairan deposito memakai lot aktif yang sudah tersimpan. Lot dapat dipilih, nilai pokok otomatis mengisi nilai aset namun tetap bisa diedit, transaksi ditautkan ke lot yang tepat, dan hanya lot terpilih yang ditutup tanpa menutup aset deposito induk. Patch produksi v1.0.4 sebelumnya tetap disertakan.",
+    "release_notes":  "v1.0.4 build 8505: pencairan deposito kini dapat menautkan transaksi rekening yang sudah diimpor sehingga lot tertutup tanpa membuat cash-in ganda. Pilihan transaksi menampilkan nominal dan rekening serta mengunci nominal/rekening saat ditautkan. Perbaikan transaksi rutin open-ended juga menerima nominal aktual yang bervariasi tanpa mengubah batas kewajiban finite. Build tetap memakai targeted validation dan incremental production build.",
     "telemetry_endpoint":  null
 }
