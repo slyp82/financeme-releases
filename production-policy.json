@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8506,
-    "minimum_required_build":  8506,
+    "latest_build":  8507,
+    "minimum_required_build":  8507,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8506/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "2a5eab38a561ce04796af1cb8b3ff32738db959fdec009cdf6bcf1c4ace8dd52",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8507/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "45285dc2299207581800a0a70656f0fb22cf097c4ed68b1ad4fda120c1f46f6b",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4 build 8506: pencairan deposito dari capture bank dapat dicatat sekali jalan. Satu Simpan menutup lot, mencatat Pencairan Deposito sebagai ASSET_SELL, Bunga Deposito sebagai pemasukan, dan Pajak Bunga Deposito sebagai pengeluaran pada rekening tujuan yang sama. Input Rupiah kini mempertahankan dua digit desimal seperti 7.266.554,68. Opsi tautkan transaksi existing tetap tersedia bila ledger sudah lebih dulu diimpor.",
+    "release_notes":  "v1.0.4 build 8507: nominal aktual biaya rutin variabel seperti Listrik \u0026 Utilitas dapat dicatat sesuai tagihan nyata meskipun master legacy masih memiliki tanggal akhir. Batas pembayaran periode tetap dipertahankan untuk kewajiban berjangka nyata seperti cicilan, SPP, dan arisan. Perbaikan deposito Build 8506 tetap dipertahankan.",
     "telemetry_endpoint":  null
 }
