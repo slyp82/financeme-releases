@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8505,
-    "minimum_required_build":  8505,
+    "latest_build":  8506,
+    "minimum_required_build":  8506,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8505/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "bb1dba27ae76b5b41e65c74616182119231de6ac922d453a8f61da9b307e6062",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8506/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "2a5eab38a561ce04796af1cb8b3ff32738db959fdec009cdf6bcf1c4ace8dd52",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4 build 8505: pencairan deposito kini dapat menautkan transaksi rekening yang sudah diimpor sehingga lot tertutup tanpa membuat cash-in ganda. Pilihan transaksi menampilkan nominal dan rekening serta mengunci nominal/rekening saat ditautkan. Perbaikan transaksi rutin open-ended juga menerima nominal aktual yang bervariasi tanpa mengubah batas kewajiban finite. Build tetap memakai targeted validation dan incremental production build.",
+    "release_notes":  "v1.0.4 build 8506: pencairan deposito dari capture bank dapat dicatat sekali jalan. Satu Simpan menutup lot, mencatat Pencairan Deposito sebagai ASSET_SELL, Bunga Deposito sebagai pemasukan, dan Pajak Bunga Deposito sebagai pengeluaran pada rekening tujuan yang sama. Input Rupiah kini mempertahankan dua digit desimal seperti 7.266.554,68. Opsi tautkan transaksi existing tetap tersedia bila ledger sudah lebih dulu diimpor.",
     "telemetry_endpoint":  null
 }
