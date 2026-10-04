@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8507,
-    "minimum_required_build":  8507,
+    "latest_build":  8508,
+    "minimum_required_build":  8508,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8507/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "45285dc2299207581800a0a70656f0fb22cf097c4ed68b1ad4fda120c1f46f6b",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8508/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "72a97ff21e8576c63d5cb517845ff804b6a072a78567bf7547f3d4fa2a668235",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4 build 8507: nominal aktual biaya rutin variabel seperti Listrik \u0026 Utilitas dapat dicatat sesuai tagihan nyata meskipun master legacy masih memiliki tanggal akhir. Batas pembayaran periode tetap dipertahankan untuk kewajiban berjangka nyata seperti cicilan, SPP, dan arisan. Perbaikan deposito Build 8506 tetap dipertahankan.",
+    "release_notes":  "v1.0.4 build 8508: halaman Data \u0026 Appraisal Deposito sekarang hanya menampilkan lot yang masih ACTIVE. Lot yang sudah dicairkan/ditutup tetap tersimpan sebagai histori audit, tetapi tidak lagi ikut tampil dalam estimasi deposito aktif. Pokok aktif dan saldo ledger tidak diubah. Fitur recurring Build 8507 dan pencairan deposito Build 8506 tetap dipertahankan.",
     "telemetry_endpoint":  null
 }
