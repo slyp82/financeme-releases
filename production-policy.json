@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8508,
-    "minimum_required_build":  8508,
+    "latest_build":  8509,
+    "minimum_required_build":  8509,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8508/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "72a97ff21e8576c63d5cb517845ff804b6a072a78567bf7547f3d4fa2a668235",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8509/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "ad98845dd485b68b784d60af3f0a32065341c8b41fff935edd35a4e5fda5b210",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4 build 8508: halaman Data \u0026 Appraisal Deposito sekarang hanya menampilkan lot yang masih ACTIVE. Lot yang sudah dicairkan/ditutup tetap tersimpan sebagai histori audit, tetapi tidak lagi ikut tampil dalam estimasi deposito aktif. Pokok aktif dan saldo ledger tidak diubah. Fitur recurring Build 8507 dan pencairan deposito Build 8506 tetap dipertahankan.",
+    "release_notes":  "v1.0.4 build 8509: Buku Keuangan menjadi beranda, mode Pemula/Menengah/Mahir menjaga data lama, riwayat valuasi mendapat rentang chart dan pagination, preview logo tampil penuh, dan Master Keterangan dapat ditambahkan dari transaksi. Data SQLite dan fitur Build 8508 tetap dipertahankan.",
     "telemetry_endpoint":  null
 }
