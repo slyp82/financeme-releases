@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8509,
-    "minimum_required_build":  8509,
+    "latest_build":  8510,
+    "minimum_required_build":  8510,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8509/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "ad98845dd485b68b784d60af3f0a32065341c8b41fff935edd35a4e5fda5b210",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8510/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "9f4936b9cf5b540b2fa7a10b5eff758948e4dd84c8409468328ced99a28d875a",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4 build 8509: Buku Keuangan menjadi beranda, mode Pemula/Menengah/Mahir menjaga data lama, riwayat valuasi mendapat rentang chart dan pagination, preview logo tampil penuh, dan Master Keterangan dapat ditambahkan dari transaksi. Data SQLite dan fitur Build 8508 tetap dipertahankan.",
+    "release_notes":  "v1.0.4 build 8510: Buku Keuangan kembali lapang. Enam tombol cepat diringkas menjadi satu shortcut Catat Transaksi yang membuka tab Transaksi, sehingga area buku lebih besar. Data SQLite, saldo, dan fitur Build 8509 tetap dipertahankan.",
     "telemetry_endpoint":  null
 }
