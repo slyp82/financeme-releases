@@ -1,13 +1,13 @@
 ﻿{
     "latest_version":  "1.0.4",
-    "latest_build":  8510,
-    "minimum_required_build":  8510,
+    "latest_build":  8511,
+    "minimum_required_build":  8511,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8510/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "9f4936b9cf5b540b2fa7a10b5eff758948e4dd84c8409468328ced99a28d875a",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8511/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "15718882933aa6e25678c9fdbdd962e9a7e5224075439f8234d6d27dc5c60b36",
     "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4 build 8510: Buku Keuangan kembali lapang. Enam tombol cepat diringkas menjadi satu shortcut Catat Transaksi yang membuka tab Transaksi, sehingga area buku lebih besar. Data SQLite, saldo, dan fitur Build 8509 tetap dipertahankan.",
+    "release_notes":  "v1.0.4 build 8511: penyempurnaan onboarding dan navigasi. User baru sekarang mendapat pilihan warna bebas melalui color wheel seperti user existing, tiga rekening awal menampilkan field yang salah secara langsung, tombol Back perlu ditekan dua kali untuk keluar, dan tab utama terakhir dipulihkan saat aplikasi dibuka kembali. Shortcut Buku Keuangan Build 8510 tetap dipertahankan. Data SQLite dan saldo tidak diubah.",
     "telemetry_endpoint":  null
 }
