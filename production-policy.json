@@ -1,13 +1,13 @@
-﻿{
-    "latest_version":  "1.0.4",
-    "latest_build":  8511,
-    "minimum_required_build":  8511,
-    "channel":  "PRODUCTION",
-    "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8511/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "15718882933aa6e25678c9fdbdd962e9a7e5224075439f8234d6d27dc5c60b36",
-    "release_title":  "Pembaruan Fitur \u0026 Stabilitas",
-    "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "v1.0.4 build 8511: penyempurnaan onboarding dan navigasi. User baru sekarang mendapat pilihan warna bebas melalui color wheel seperti user existing, tiga rekening awal menampilkan field yang salah secara langsung, tombol Back perlu ditekan dua kali untuk keluar, dan tab utama terakhir dipulihkan saat aplikasi dibuka kembali. Shortcut Buku Keuangan Build 8510 tetap dipertahankan. Data SQLite dan saldo tidak diubah.",
-    "telemetry_endpoint":  null
+{
+  "latest_version": "1.0.4",
+  "latest_build": 8512,
+  "minimum_required_build": 8512,
+  "channel": "PRODUCTION",
+  "package_id": "id.financeme",
+  "apk_url": "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8512/financeMe-Production-latest-arm64.apk",
+  "apk_sha256": "1ac970c92195ab8af80a47c611c2c3a6e91b09dd6470765831736c0e44d0e25c",
+  "release_title": "Pembaruan Fitur & Stabilitas",
+  "release_kind": "FEATURE_STABILITY_PATCH",
+  "release_notes": "Build 8512: Backup Profil memperbaiki relasi recurring; Buku Keuangan lebih besar dan stempel theAnly. SQLite utama dan nominal tersimpan tetap.",
+  "telemetry_endpoint": null
 }
