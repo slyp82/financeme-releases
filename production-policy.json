@@ -1,13 +1,13 @@
 {
-  "latest_version": "1.0.4",
-  "latest_build": 8513,
-  "minimum_required_build": 8512,
-  "channel": "PRODUCTION",
-  "package_id": "id.financeme",
-  "apk_url": "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8513/financeMe-Production-latest-arm64.apk",
-  "apk_sha256": "088899220465c1f8fa9b302e8fdc9d78a8bb9c5aecaf127abf070478815acf23",
-  "release_title": "Ringkasan, Navigasi & Backup Profil",
-  "release_kind": "FEATURE_STABILITY_PATCH",
-  "release_notes": "Build 8513: Ringkasan Keuangan kembali ke Beranda; Buku Keuangan dibuka lewat tombol sendiri; empat tab tetap terlihat pada drill-down dan formulir; Backup Profil memverifikasi snapshot SQLite dan file Drive menggunakan SHA-256; pre-update snapshot aman dari deadlock relasi legacy. Data SQLite, saldo, dan nominal existing tidak dimigrasikan.",
-  "telemetry_endpoint": null
+    "latest_version":  "1.0.4",
+    "latest_build":  8514,
+    "minimum_required_build":  8512,
+    "channel":  "PRODUCTION",
+    "package_id":  "id.financeme",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8514/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "d59d08efca6211ebaa091a0c723be97bd3a9d135d5bd69da8f74534377460707",
+    "release_title":  "Navigasi Cerdas \u0026 Pembaruan Kumulatif",
+    "release_kind":  "FEATURE_STABILITY_PATCH",
+    "release_notes":  "Build 8514: Pindah tab dari halaman baca saja seperti Saldo Likuid tanpa konfirmasi; form yang sudah disentuh tetap dilindungi jika berisiko kehilangan isian. Termasuk perbaikan Build 8513: Beranda Ringkasan, Buku Keuangan halaman kedua, empat tab permanen, Backup Profil SHA-256 dan pre-update guard. Instal langsung Build 8514 tanpa patch berurutan; SQLite, saldo, dan nominal existing tetap.",
+    "telemetry_endpoint":  null
 }
