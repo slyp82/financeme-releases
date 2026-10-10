@@ -1,13 +1,13 @@
 {
   "latest_version": "1.0.4",
-  "latest_build": 8512,
+  "latest_build": 8513,
   "minimum_required_build": 8512,
   "channel": "PRODUCTION",
   "package_id": "id.financeme",
-  "apk_url": "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8512/financeMe-Production-latest-arm64.apk",
-  "apk_sha256": "1ac970c92195ab8af80a47c611c2c3a6e91b09dd6470765831736c0e44d0e25c",
-  "release_title": "Pembaruan Fitur & Stabilitas",
+  "apk_url": "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8513/financeMe-Production-latest-arm64.apk",
+  "apk_sha256": "088899220465c1f8fa9b302e8fdc9d78a8bb9c5aecaf127abf070478815acf23",
+  "release_title": "Ringkasan, Navigasi & Backup Profil",
   "release_kind": "FEATURE_STABILITY_PATCH",
-  "release_notes": "Build 8512: Backup Profil memperbaiki relasi recurring; Buku Keuangan lebih besar dan stempel theAnly. SQLite utama dan nominal tersimpan tetap.",
+  "release_notes": "Build 8513: Ringkasan Keuangan kembali ke Beranda; Buku Keuangan dibuka lewat tombol sendiri; empat tab tetap terlihat pada drill-down dan formulir; Backup Profil memverifikasi snapshot SQLite dan file Drive menggunakan SHA-256; pre-update snapshot aman dari deadlock relasi legacy. Data SQLite, saldo, dan nominal existing tidak dimigrasikan.",
   "telemetry_endpoint": null
 }
