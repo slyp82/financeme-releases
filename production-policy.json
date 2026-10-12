@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8515,
+    "latest_build":  8516,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8515/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "8ff59db210995f38688706791b4cb2645990c7b02e81af5c5b12d6d2b55abf79",
-    "release_title":  "Master Keterangan - Edit \u0026 Gabungkan Aman",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8516/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "fe05b96987111008ac96ac5d4069d0343c041a07676d508590c1318277c9ca8b",
+    "release_title":  "Master Keterangan: Starter Bersama Konsisten",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "Build 8515: Master Keterangan Sinkron/Lokal tampil konsisten. Penggabungan master Lokal memakai pratinjau dan transaksi atomik, menjaga histori, nominal, saldo, relasi rutin dan ID sinkron. Termasuk perbaikan kumulatif Build 8514. Update langsung tanpa uninstall.",
+    "release_notes":  "Build 8516: Keterangan starter bersama tidak lagi tampil sebagai master Lokal yang dapat diedit. Label Sinkron/Lokal lebih akurat; master profil tetap dapat diedit atau digabung melalui guard yang sudah ada. Tidak menghapus baris SQLite, tidak mengubah histori, saldo, nominal atau ID sinkron. Termasuk perbaikan kumulatif Build 8515. Update langsung tanpa uninstall atau clear data.",
     "telemetry_endpoint":  null
 }
