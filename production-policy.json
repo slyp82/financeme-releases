@@ -1,13 +1,13 @@
 {
-    "latest_version":  "1.0.4",
-    "latest_build":  8519,
-    "minimum_required_build":  8512,
-    "channel":  "PRODUCTION",
-    "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8519/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "a7913aeee871de8892e3cb3a9ef75f0a10f98b2d29acb8a3034770631c8430ba",
-    "release_title":  "AI Insight: Kondisi, Dampak dan Langkah Berikutnya",
-    "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "Build 8519 kumulatif: AI Insight existing tampil setelah Buku Keuangan, menjelaskan kondisi, selisih bulanan dan pilihan tindakan dengan sumber angka yang dapat ditelusuri. Ringkasan dan simulasi tetap tersedia dalam alur existing. Rincian mengikuti basis rumus, navigasi memakai sumber yang tepat. Tidak membuat modul baru atau mengubah rumus proyeksi, saldo, transaksi maupun struktur SQLite. Mempertahankan fitur 8518 dan presisi dua desimal. Update langsung tanpa uninstall atau clear data; UAT perangkat menunggu.",
-    "telemetry_endpoint":  null
+  "latest_version": "1.0.4",
+  "latest_build": 8519,
+  "minimum_required_build": 8512,
+  "channel": "PRODUCTION",
+  "package_id": "id.financeme",
+  "apk_url": "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8519/financeMe-Production-latest-arm64.apk",
+  "apk_sha256": "a7913aeee871de8892e3cb3a9ef75f0a10f98b2d29acb8a3034770631c8430ba",
+  "release_title": "AI Insight",
+  "release_kind": "FEATURE_STABILITY_PATCH",
+  "release_notes": "Yang baru: AI Insight kini tampil setelah Buku Keuangan. Anda dapat melihat ringkasan kondisi keuangan, memahami kemungkinan dampaknya, dan mempertimbangkan langkah berikutnya berdasarkan catatan yang tersedia. Saldo, transaksi, dan rumus perhitungan tidak diubah oleh fitur ini. Perbaikan dari versi sebelumnya tetap tersedia.",
+  "telemetry_endpoint": null
 }
