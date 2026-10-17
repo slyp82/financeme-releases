@@ -1,13 +1,13 @@
 {
-  "latest_version": "1.0.4",
-  "latest_build": 8519,
-  "minimum_required_build": 8512,
-  "channel": "PRODUCTION",
-  "package_id": "id.financeme",
-  "apk_url": "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8519/financeMe-Production-latest-arm64.apk",
-  "apk_sha256": "a7913aeee871de8892e3cb3a9ef75f0a10f98b2d29acb8a3034770631c8430ba",
-  "release_title": "AI Insight",
-  "release_kind": "FEATURE_STABILITY_PATCH",
-  "release_notes": "Yang baru: AI Insight kini tampil setelah Buku Keuangan. Anda dapat melihat ringkasan kondisi keuangan, memahami kemungkinan dampaknya, dan mempertimbangkan langkah berikutnya berdasarkan catatan yang tersedia. Saldo, transaksi, dan rumus perhitungan tidak diubah oleh fitur ini. Perbaikan dari versi sebelumnya tetap tersedia.",
-  "telemetry_endpoint": null
+    "latest_version":  "1.0.4",
+    "latest_build":  8520,
+    "minimum_required_build":  8512,
+    "channel":  "PRODUCTION",
+    "package_id":  "id.financeme",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8520/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "dbbcc111969e523f461900f0063ef8ba5d432c483869598888b89709a2cf8b99",
+    "release_title":  "Riwayat Rutin \u0026 Tampilan Pembaruan",
+    "release_kind":  "FEATURE_STABILITY_PATCH",
+    "release_notes":  "Build 8520: Riwayat Pengingat Rutin kini menghitung dan menampilkan transaksi terhubung yang masih aktif di Ledger, tanpa menampilkan catatan historis yang disembunyikan setelah edit. Status hubungan lebih jelas dan halaman pengelola menyediakan Coba lagi bila pemuatan gagal. Tampilan informasi pembaruan dirapikan agar nyaman dibaca. Tidak menghapus transaksi, tidak mengubah saldo, rumus keuangan, atau struktur SQLite. Presisi dua desimal dan fitur Build 8519 tetap tersedia. Tetap perlu uji pada perangkat.",
+    "telemetry_endpoint":  null
 }
