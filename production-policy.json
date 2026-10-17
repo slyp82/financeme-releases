@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8516,
+    "latest_build":  8517,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8516/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "fe05b96987111008ac96ac5d4069d0343c041a07676d508590c1318277c9ca8b",
-    "release_title":  "Master Keterangan: Starter Bersama Konsisten",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8517/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "15f218bced62b271d863273cee1c8ce52d95fa100d19959da0724a0422d696f4",
+    "release_title":  "Presisi Nominal dan Saldo Likuid",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "Build 8516: Keterangan starter bersama tidak lagi tampil sebagai master Lokal yang dapat diedit. Label Sinkron/Lokal lebih akurat; master profil tetap dapat diedit atau digabung melalui guard yang sudah ada. Tidak menghapus baris SQLite, tidak mengubah histori, saldo, nominal atau ID sinkron. Termasuk perbaikan kumulatif Build 8515. Update langsung tanpa uninstall atau clear data.",
+    "release_notes":  "Build 8517 kumulatif: presisi nominal IDR dua desimal; Saldo Likuid dengan Koreksi Saldo atau Catat Transaksi; penyesuaian Budget Bulanan, proyeksi dan Pola Pengeluaran, integrasi laporan dan kapasitas tabungan. Mempertahankan perbaikan Master Keterangan 8516. Gate source dan backup/restore fixture telah lulus; penerimaan fitur dan data perangkat menunggu device UAT. Update langsung tanpa uninstall atau clear data.",
     "telemetry_endpoint":  null
 }
