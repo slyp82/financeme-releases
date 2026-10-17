@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8517,
+    "latest_build":  8518,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8517/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "15f218bced62b271d863273cee1c8ce52d95fa100d19959da0724a0422d696f4",
-    "release_title":  "Presisi Nominal dan Saldo Likuid",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8518/financeMe-Production-latest-arm64.apk",
+    "apk_sha256":  "017ee2581a0062b652786212b769d30ff0cfd01c926ee15274bbe5e2be66631c",
+    "release_title":  "Dana Bebas Aman Konsisten",
     "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "Build 8517 kumulatif: presisi nominal IDR dua desimal; Saldo Likuid dengan Koreksi Saldo atau Catat Transaksi; penyesuaian Budget Bulanan, proyeksi dan Pola Pengeluaran, integrasi laporan dan kapasitas tabungan. Mempertahankan perbaikan Master Keterangan 8516. Gate source dan backup/restore fixture telah lulus; penerimaan fitur dan data perangkat menunggu device UAT. Update langsung tanpa uninstall atau clear data.",
+    "release_notes":  "Build 8518 kumulatif: Dana Bebas Aman memakai satu perhitungan dan rincian untuk Beranda, Ringkasan Keuangan, dan peringatan transaksi. Kebutuhan hidup bulanan menjadi batas proteksi minimum dengan tambahan hanya untuk kebutuhan yang belum tercakup. Mempertahankan fitur 8517 dan presisi dua desimal. Tidak mengubah saldo, transaksi, atau struktur SQLite. Backup dan restore fixture diuji; penerimaan perangkat menunggu UAT. Update langsung tanpa uninstall atau clear data.",
     "telemetry_endpoint":  null
 }
