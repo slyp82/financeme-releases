@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8522,
+    "latest_build":  8524,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8522/financeMe-Production-latest-arm64.apk",
-    "apk_sha256":  "73b36b31157f1583cbc01ffe28372d935b3a429122de16f492c710781448207d",
-    "release_title":  "Dana Sumber Aset \u0026 Konsistensi Data",
-    "release_kind":  "FEATURE_STABILITY_PATCH",
-    "release_notes":  "Build 8522: Dana sumber aset tampil sejak awal. Pembelian memakai rekening dan pembayaran positif; penambahan non-kas dipilih eksplisit. Ganti tanggal mempertahankan nominal pembayaran. Perbaikan guard relasi rutin dan konsistensi nilai deposito disertakan. Generic tambah deposito diblok sampai placement/lot atomik tersedia. 717 tes regresi dan 108 tes rilis/backup-restore lulus. Uji perangkat masih berjalan; event aset lama memerlukan backup setelah Save untuk rekonsiliasi tanpa duplikasi. Backup penuh sebelum update; jangan uninstall atau clear data. Source APK: 41911d4a07585a6e8815f8dc0f271074e7f1db7e. Issue58/PR59 tetap terbuka.",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8524/financeMe-Production-build8524-arm64.apk",
+    "apk_sha256":  "53ccc33a27a5fbba102843aa7c6dd16b4d3270a76e083f4997c12d6e344990d8",
+    "release_title":  "Perbaikan Catat Transaksi Aktual Rutin",
+    "release_kind":  "STABILITY_PATCH",
+    "release_notes":  "Build 8524: Catat Pemasukan/Pengeluaran Aktual rutin untuk rekening sinkron kini memfilter Master Keterangan dengan ID_MK valid. Konfirmasi pilihan lintas kategori; rekening lokal tetap dapat memakai keterangan lokal. Mencakup Build 8523 pilot aset serta perubahan kumulatif 8522. Tanpa perubahan skema SQLite dan tanpa migrasi saldo/histori. Backup sebelum update, jangan uninstall atau hapus data. UAT perangkat dan rekonsiliasi ledger tetap harus diperiksa setelah upgrade; Issue60/PR61 dan Issue58/PR59 masih OPEN. Source: 462d5bad0de6f6aeac7ba720efac223ef172447a.",
     "telemetry_endpoint":  null
 }
