@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8525,
+    "latest_build":  8526,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8525/financeMe-Production-build8525-arm64.apk",
-    "apk_sha256":  "b6358136687be30960e861bf40d2939e842e73a0fc56c63e6e45613e6012b786",
-    "release_title":  "Koreksi Jadwal Rutin dan Dana Bebas",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8526/financeMe-Production-build8526-arm64.apk",
+    "apk_sha256":  "352f71c87912758ec33f1dfdda61658fdf9dcd70d8bb2322d8241e284d64f742",
+    "release_title":  "Cicilan Sederhana dan Navigasi Stabil",
     "release_kind":  "STABILITY_PATCH",
-    "release_notes":  "Build 8525: Koreksi reminder rutin tidak menganggap selisih estimasi dan aktual sebagai tunggakan/cicilan. Jadwal dan perkiraan berikutnya memakai relasi POSTED aktual terakhir secara read-only; Biaya Mendatang, Dana Bebas Aman, dan Budget Bulanan memakai satu proyeksi. Tetap mencakup seluruh perbaikan 8524 dan release sebelumnya. Tanpa perubahan tampilan/menu, fitur, skema SQLite, migrasi saldo, atau penghapusan histori. Backup sebelum update dan verifikasi angka dengan data asli. UAT perangkat belum selesai; Issue #64 dan #58 tetap OPEN. Source: c57fb0928bc50d336f51e0635c0a5bd870744e58.",
+    "release_notes":  "Build 8526: Form Hutang/Cicilan sederhana untuk pengguna awam: total harus dilunasi, target bulan, cicilan bebas, sisa hutang, dan ubah rencana dengan histori koreksi. Catat cicilan mengubah progres hutang saja tanpa mengurangi saldo rekening atau membuat transaksi kas baru; Transfer Antar Rekening tidak berubah. Stabilitas dialog Simpan dan perpindahan tab diperbaiki. Seluruh patch sampai Build 8525 tetap disertakan. Tanpa perubahan skema SQLite, reset database, atau penghapusan histori. Backup sebelum update; UAT HP masih diperlukan. Issue #67 dan #68 tetap OPEN sampai UAT. Source: 1781810a55c68d47b3a4a61a6a11e0aae4e693cf.",
     "telemetry_endpoint":  null
 }
