@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8526,
+    "latest_build":  8527,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8526/financeMe-Production-build8526-arm64.apk",
-    "apk_sha256":  "352f71c87912758ec33f1dfdda61658fdf9dcd70d8bb2322d8241e284d64f742",
-    "release_title":  "Cicilan Sederhana dan Navigasi Stabil",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8527/financeMe-Production-build8527-arm64.apk",
+    "apk_sha256":  "0754367f86dfdd99055a7414d2b22cd84a6182f0fef3b7b024103d9a4d22fe1c",
+    "release_title":  "Hutang Piutang Ledger Konsisten",
     "release_kind":  "STABILITY_PATCH",
-    "release_notes":  "Build 8526: Form Hutang/Cicilan sederhana untuk pengguna awam: total harus dilunasi, target bulan, cicilan bebas, sisa hutang, dan ubah rencana dengan histori koreksi. Catat cicilan mengubah progres hutang saja tanpa mengurangi saldo rekening atau membuat transaksi kas baru; Transfer Antar Rekening tidak berubah. Stabilitas dialog Simpan dan perpindahan tab diperbaiki. Seluruh patch sampai Build 8525 tetap disertakan. Tanpa perubahan skema SQLite, reset database, atau penghapusan histori. Backup sebelum update; UAT HP masih diperlukan. Issue #67 dan #68 tetap OPEN sampai UAT. Source: 1781810a55c68d47b3a4a61a6a11e0aae4e693cf.",
+    "release_notes":  "Build 8527: Hutang, Piutang, dan Aset mengikuti standar sumber rekening + Ledger + saldo posisi. Bayar cicilan fleksibel dari rekening pilihan dengan Ledger dan pengurangan hutang satu kali; transfer antar rekening tetap terpisah. Piutang baru atau penerimaan piutang memakai satu rekening dan satu Ledger; piutang lama dapat dicatat sebagai saldo awal tanpa uang keluar. Cicilan Build 8526 yang sebelumnya non-kas dapat diperbaiki dengan fitur Catat ke Ledger tanpa mengurangi hutang lagi, hanya bila pengeluaran tersebut belum ada di Ledger. Regresi Flutter, saldo, transfer, aset, piutang, hutang dan backup SQLite diverifikasi di source gate. Tidak uninstall, reset data, atau migrasi skema; backup sebelum update. Issue 67 dan 68 tetap terbuka untuk UAT HP. Source: f58dc3fa7a19a006241cb07c8b477105124b713a.",
     "telemetry_endpoint":  null
 }
