@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8529,
+    "latest_build":  8530,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8529/financeMe-Production-build8529-arm64.apk",
-    "apk_sha256":  "b09cd57596e381b620146e5290dbd9e2f803cd99297048c657c010de139b7c73",
-    "release_title":  "Lima Menu Ledger, Aset, Master, Analisa, Report",
-    "release_kind":  "STABILITY_PATCH",
-    "release_notes":  "Build 8529: Susunan Ledger, Aset, Master, Analisa, Report. Pemasukan Rutin dan Pengeluaran Rutin berdampingan, masing-masing memakai Master Keterangan sesuai jenis INCOME atau EXPENSE. Hutang dan Cicilan serta Piutang tersedia berpasangan di dalam Ledger. Edit nominal pembayaran cicilan terhubung dapat dilakukan dari detail Ledger tanpa menciptakan transaksi kedua; saldo kas dan kewajiban disesuaikan atomik dengan audit. Penerimaan pokok piutang tidak menjadi pendapatan ganda. Riwayat, rekening, saldo, dan relasi lama tetap dipertahankan, tanpa migrasi SQLite. Targeted tests, static analysis, seluruh regresi Flutter, backup-restore SQLite dan rollback finansial lulus. Buat backup sebelum update tanpa uninstall. UAT perangkat masih diperlukan. Source: 05e344eb5f7256a57acbfbb9a3e26e243d33fcbf.",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8530/financeMe-Production-build8530-arm64.apk",
+    "apk_sha256":  "97b0f44efaedb2251baf632a25c5b3fa2a187889eb84af3b48a7eb1254898b9a",
+    "release_title":  "Buku Keuangan di Seluruh financeMe!",
+    "release_kind":  "FEATURE_UPDATE",
+    "release_notes":  "Build 8530: Buku Keuangan asli menjadi halaman utama, Daftar Isi, pembatas BAB kanan dan animasi membuka lembar. Modul lama tetap memakai data yang sama. Buat backup sebelum update tanpa uninstall; lakukan tes swipe, Back, Catat/Koreksi, saldo dan layar blank.",
     "telemetry_endpoint":  null
 }
