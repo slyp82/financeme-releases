@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8528,
+    "latest_build":  8529,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8528/financeMe-Production-build8528-arm64.apk",
-    "apk_sha256":  "d149388510626343af76ba64a026d0e1f5e5d46402935fdc3212666d2196fba6",
-    "release_title":  "Koreksi Cicilan Tertaut dan Ledger Aman",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8529/financeMe-Production-build8529-arm64.apk",
+    "apk_sha256":  "b09cd57596e381b620146e5290dbd9e2f803cd99297048c657c010de139b7c73",
+    "release_title":  "Lima Menu Ledger, Aset, Master, Analisa, Report",
     "release_kind":  "STABILITY_PATCH",
-    "release_notes":  "Build 8528: Perbaikan pencatatan cicilan ganda dengan tombol Batalkan pencatatan cicilan ini langsung dari detail Ledger. Pembatalan satu pembayaran yang dipilih mengembalikan perhitungan saldo rekening dan sisa hutang dalam satu transaksi SQLite; cicilan lain, transfer bank, aset, dan data historis tetap utuh. Pembayaran lama yang dicatat dua kali tidak dihapus otomatis: pengguna memilih satu transaksi salah dan mengonfirmasi sekali. Ledger utama tetap satu pintu pencatatan; tidak ada kewajiban input ulang cicilan. Pengujian rollback, idempotensi, linked Ledger, source account, angka rupiah, tab navigation, SQLite backup-restore dan full Flutter regression lulus. Backup data sebelum memasang update tanpa uninstall; UAT perangkat masih diperlukan. Penataan enam modul tetap pekerjaan terpisah, bukan migrasi database di patch ini. Source: 6f8430d474aeb43d10bd933b354bf12f0fdcd03a.",
+    "release_notes":  "Build 8529: Susunan Ledger, Aset, Master, Analisa, Report. Pemasukan Rutin dan Pengeluaran Rutin berdampingan, masing-masing memakai Master Keterangan sesuai jenis INCOME atau EXPENSE. Hutang dan Cicilan serta Piutang tersedia berpasangan di dalam Ledger. Edit nominal pembayaran cicilan terhubung dapat dilakukan dari detail Ledger tanpa menciptakan transaksi kedua; saldo kas dan kewajiban disesuaikan atomik dengan audit. Penerimaan pokok piutang tidak menjadi pendapatan ganda. Riwayat, rekening, saldo, dan relasi lama tetap dipertahankan, tanpa migrasi SQLite. Targeted tests, static analysis, seluruh regresi Flutter, backup-restore SQLite dan rollback finansial lulus. Buat backup sebelum update tanpa uninstall. UAT perangkat masih diperlukan. Source: 05e344eb5f7256a57acbfbb9a3e26e243d33fcbf.",
     "telemetry_endpoint":  null
 }
