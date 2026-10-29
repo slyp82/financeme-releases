@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8527,
+    "latest_build":  8528,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8527/financeMe-Production-build8527-arm64.apk",
-    "apk_sha256":  "0754367f86dfdd99055a7414d2b22cd84a6182f0fef3b7b024103d9a4d22fe1c",
-    "release_title":  "Hutang Piutang Ledger Konsisten",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8528/financeMe-Production-build8528-arm64.apk",
+    "apk_sha256":  "d149388510626343af76ba64a026d0e1f5e5d46402935fdc3212666d2196fba6",
+    "release_title":  "Koreksi Cicilan Tertaut dan Ledger Aman",
     "release_kind":  "STABILITY_PATCH",
-    "release_notes":  "Build 8527: Hutang, Piutang, dan Aset mengikuti standar sumber rekening + Ledger + saldo posisi. Bayar cicilan fleksibel dari rekening pilihan dengan Ledger dan pengurangan hutang satu kali; transfer antar rekening tetap terpisah. Piutang baru atau penerimaan piutang memakai satu rekening dan satu Ledger; piutang lama dapat dicatat sebagai saldo awal tanpa uang keluar. Cicilan Build 8526 yang sebelumnya non-kas dapat diperbaiki dengan fitur Catat ke Ledger tanpa mengurangi hutang lagi, hanya bila pengeluaran tersebut belum ada di Ledger. Regresi Flutter, saldo, transfer, aset, piutang, hutang dan backup SQLite diverifikasi di source gate. Tidak uninstall, reset data, atau migrasi skema; backup sebelum update. Issue 67 dan 68 tetap terbuka untuk UAT HP. Source: f58dc3fa7a19a006241cb07c8b477105124b713a.",
+    "release_notes":  "Build 8528: Perbaikan pencatatan cicilan ganda dengan tombol Batalkan pencatatan cicilan ini langsung dari detail Ledger. Pembatalan satu pembayaran yang dipilih mengembalikan perhitungan saldo rekening dan sisa hutang dalam satu transaksi SQLite; cicilan lain, transfer bank, aset, dan data historis tetap utuh. Pembayaran lama yang dicatat dua kali tidak dihapus otomatis: pengguna memilih satu transaksi salah dan mengonfirmasi sekali. Ledger utama tetap satu pintu pencatatan; tidak ada kewajiban input ulang cicilan. Pengujian rollback, idempotensi, linked Ledger, source account, angka rupiah, tab navigation, SQLite backup-restore dan full Flutter regression lulus. Backup data sebelum memasang update tanpa uninstall; UAT perangkat masih diperlukan. Penataan enam modul tetap pekerjaan terpisah, bukan migrasi database di patch ini. Source: 6f8430d474aeb43d10bd933b354bf12f0fdcd03a.",
     "telemetry_endpoint":  null
 }
