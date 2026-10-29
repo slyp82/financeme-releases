@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8530,
+    "latest_build":  8531,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8530/financeMe-Production-build8530-arm64.apk",
-    "apk_sha256":  "97b0f44efaedb2251baf632a25c5b3fa2a187889eb84af3b48a7eb1254898b9a",
-    "release_title":  "Buku Keuangan di Seluruh financeMe!",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8531/financeMe-Production-build8531-arm64.apk",
+    "apk_sha256":  "9814c0238b957024db712eb1e35652cd5ce9011ed03efda03784f8aebf37385e",
+    "release_title":  "Sticky Note Buku Keuangan",
     "release_kind":  "FEATURE_UPDATE",
-    "release_notes":  "Build 8530: Buku Keuangan asli menjadi halaman utama, Daftar Isi, pembatas BAB kanan dan animasi membuka lembar. Modul lama tetap memakai data yang sama. Buat backup sebelum update tanpa uninstall; lakukan tes swipe, Back, Catat/Koreksi, saldo dan layar blank.",
+    "release_notes":  "Build 8531: Buku Keuangan full width, tanpa tab kanan. Lima sticky note pastel di bawah, tulisan lengkap. Data tetap aman. Backup dahulu dan update tanpa uninstall. Uji Back, Save, swipe, saldo, hutang dan piutang.",
     "telemetry_endpoint":  null
 }
