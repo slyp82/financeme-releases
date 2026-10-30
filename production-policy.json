@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8533,
+    "latest_build":  8534,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8533/financeMe-Production-build8533-arm64.apk",
-    "apk_sha256":  "2ff296a491764c6706b6fad1c3ac3339d31c919f0f53c95487cd90c22b91b27a",
-    "release_title":  "Catat Kegiatan - Atur Datamu - Uang Berbicara",
-    "release_kind":  "FEATURE_UPDATE",
-    "release_notes":  "Build 8533: Catat Kegiatan berbentuk sticky note dan membuka daftar Transaksi; BAB Atur Datamu dan Uang Berbicara (Money Can Talk); kartu daftar transaksi lebih mudah dibaca. Font mengikuti HP. Backup sebelum update tanpa uninstall. Uji Catat, Salin, Save, Back, saldo, hutang, piutang.",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8534/financeMe-Production-build8534-arm64.apk",
+    "apk_sha256":  "07a0f82bc829a4b51d25964ffef60b479e0c480566e60df94d229111844647ef",
+    "release_title":  "Keamanan Deposito \u0026 Koreksi Saldo Ledger",
+    "release_kind":  "BUGFIX",
+    "release_notes":  "Build 8534: penempatan deposito baru mencatat kas keluar dan lot dalam satu langkah; pencairan lot kini dijaga; koreksi penjualan fiktif lewat detail Ledger memakai konfirmasi dan audit. Tidak ada migrasi SQLite atau pembetulan saldo historis otomatis. Backup data sebelum pembaruan, jangan uninstall. Setelah update, verifikasi saldo dan transaksi bank.",
     "telemetry_endpoint":  null
 }
