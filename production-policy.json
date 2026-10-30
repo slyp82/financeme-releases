@@ -6,7 +6,7 @@
     "package_id":  "id.financeme",
     "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8533/financeMe-Production-build8533-arm64.apk",
     "apk_sha256":  "2ff296a491764c6706b6fad1c3ac3339d31c919f0f53c95487cd90c22b91b27a",
-    "release_title":  "Catat Kegiatan â€¢ Atur Datamu â€¢ Uang Berbicara",
+    "release_title":  "Catat Kegiatan - Atur Datamu - Uang Berbicara",
     "release_kind":  "FEATURE_UPDATE",
     "release_notes":  "Build 8533: Catat Kegiatan berbentuk sticky note dan membuka daftar Transaksi; BAB Atur Datamu dan Uang Berbicara (Money Can Talk); kartu daftar transaksi lebih mudah dibaca. Font mengikuti HP. Backup sebelum update tanpa uninstall. Uji Catat, Salin, Save, Back, saldo, hutang, piutang.",
     "telemetry_endpoint":  null
