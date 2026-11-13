@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8535,
+    "latest_build":  8536,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8535/financeMe-Production-build8535-arm64.apk",
-    "apk_sha256":  "e31bde38e97b5d31108253c4088b07f68ef05d3d14f8cfdc118fdf23b79ea77e",
-    "release_title":  "Perbaikan Master \u0026 Privasi Lokal",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8536/financeMe-Production-build8536-arm64.apk",
+    "apk_sha256":  "b8959c0954b096f017e1222da131a4453854134eb54db8e500ceca60c6fcdd21",
+    "release_title":  "Audit Pengingat Ganda",
     "release_kind":  "BUGFIX",
-    "release_notes":  "Build 8535: deteksi pengingat rutin mirip, merge Keterangan Lokal aman, tab Master stabil setelah Simpan, perbaikan pemeriksaan pembaruan, dan permintaan harga Bitget/BI kini hanya dengan izin. SQLite tetap utama. Backup sebelum pembaruan, jangan uninstall. Masalah blank/keyboard/screenshot masih dalam UAT.",
+    "release_notes":  "Build 8536: mendeteksi kandidat pengingat ganda meskipun kategori atau interval berbeda; pengguna dapat meninjau dan mengarsipkan master yang salah. Tidak ada auto-hapus, auto-merge, atau perubahan Ledger. SQLite tetap utama; backup Google Sheets dan harga Bitget/BI hanya atas izin. Screenshot Buku Keuangan (#82) belum diperbaiki. Backup dahulu; jangan uninstall.",
     "telemetry_endpoint":  null
 }
