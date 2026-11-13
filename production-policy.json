@@ -1,13 +1,13 @@
 {
     "latest_version":  "1.0.4",
-    "latest_build":  8534,
+    "latest_build":  8535,
     "minimum_required_build":  8512,
     "channel":  "PRODUCTION",
     "package_id":  "id.financeme",
-    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8534/financeMe-Production-build8534-arm64.apk",
-    "apk_sha256":  "07a0f82bc829a4b51d25964ffef60b479e0c480566e60df94d229111844647ef",
-    "release_title":  "Keamanan Deposito \u0026 Koreksi Saldo Ledger",
+    "apk_url":  "https://github.com/slyp82/financeme-releases/releases/download/prod-v1.0.4-build8535/financeMe-Production-build8535-arm64.apk",
+    "apk_sha256":  "e31bde38e97b5d31108253c4088b07f68ef05d3d14f8cfdc118fdf23b79ea77e",
+    "release_title":  "Perbaikan Master \u0026 Privasi Lokal",
     "release_kind":  "BUGFIX",
-    "release_notes":  "Build 8534: penempatan deposito baru mencatat kas keluar dan lot dalam satu langkah; pencairan lot kini dijaga; koreksi penjualan fiktif lewat detail Ledger memakai konfirmasi dan audit. Tidak ada migrasi SQLite atau pembetulan saldo historis otomatis. Backup data sebelum pembaruan, jangan uninstall. Setelah update, verifikasi saldo dan transaksi bank.",
+    "release_notes":  "Build 8535: deteksi pengingat rutin mirip, merge Keterangan Lokal aman, tab Master stabil setelah Simpan, perbaikan pemeriksaan pembaruan, dan permintaan harga Bitget/BI kini hanya dengan izin. SQLite tetap utama. Backup sebelum pembaruan, jangan uninstall. Masalah blank/keyboard/screenshot masih dalam UAT.",
     "telemetry_endpoint":  null
 }
